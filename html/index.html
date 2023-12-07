@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Author: Paul -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/stylesheet.css" rel="stylesheet">
+    <link href="../css/styles.scss" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"/>
+    <script src="../js/script.js" defer></script>
+    <title>Project: Dice Game</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Dice Game</h1>
+          </header>
+        
+          <section class="game">
+            <div class="player">
+              <h2>Player</h2>
+              <div class="dice">
+                <img src="../images/white-dice-1.jpg" alt="White Dice" id="playerDiceImage1">
+                <img src="../images/white-dice-6.jpg" alt="White Dice" id="playerDiceImage2">
+              </div>
+              <p>Score: <span id="playerScore">0</span></p>
+              <p>Total Score: <span id="playerTotalScore">0</span></p>
+            </div>
+        
+            <!-- Buttons for rolling dice and resetting the game -->
+          <button id="rollDice">Roll Dice</button>
+          <button id="resetGame">Reset Game</button>
+
+            <div class="computer">
+              <h2>Computer</h2>
+              <div class="dice">
+                <img src="../images/black-dice-6.jpg" alt="Black Dice" id="computerDiceImage1">
+                <img src="../images/black-dice-1.jpg" alt="Black Dice" id="computerDiceImage2">
+              </div>
+              <p>Score: <span id="computerScore">0</span></p>
+              <p>Total Score: <span id="computerTotalScore">0</span></p>
+            </div>
+          </section>
+        
+          <!-- Display area for the winner message -->
+          <div class="winner-message" id="winnerMessage"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+/* Reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* Body Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+section {
+    border: 10px solid #1e90ff;
+    border-radius: 30px;
+}
+
+/* Game Section Styles */
+.game {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.player,
+.computer {
+    text-align: center;
+    margin-bottom: 0px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.player h2,
+.computer h2 {
+    margin-top: 0;
+}
+.player .dice,
+.computer .dice {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.player img,
+.computer img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Winner Message */
+.winner-message {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

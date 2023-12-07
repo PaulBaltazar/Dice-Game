@@ -1,0 +1,8 @@
+$primary-color: #007bff;
+$border-radius: 5px;
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
